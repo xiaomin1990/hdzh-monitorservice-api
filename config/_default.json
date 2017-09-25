@@ -1,0 +1,55 @@
+{
+  "mongodb": {
+    "username": "base",
+    "password": "Hhskh&kjj*",
+    "host": "47.94.45.163:27017",
+    "database": "base",
+    "socketTimeoutMS": 10000,
+    "replsets": []
+  },
+  "mongodbalgorithm": {
+    "username": "superhdzh",
+    "password": "Hhskh&kjj*",
+    "host": "47.94.45.163:27017",
+    "database": "algorithm",
+    "socketTimeoutMS": 10000,
+    "replsets": []
+  },
+  "redis": {
+    "host": "47.94.45.163",
+    "port": 6379,
+    "password":"hdzh.",
+    "index": 2
+  },
+  "kafka": {
+    "connectionString": "47.94.45.163:2181"
+  },
+  "sessionSecret": "scrm",
+  "perPageMaxCount": 1000,
+  "bcrypt": {
+    "rounds": 1
+  },
+  "logDir": "/logs",
+  "logLevel": "debug",
+  "logOutput": true,
+  "logConfig": {
+    "user": {
+      "level": "debug",
+      "output": true
+    }
+  },
+  "crontab": {
+    "nodeCommand": "NODE_ENV=development /usr/local/bin/node",
+    "shellCommand": "/bin/bash",
+    "logTidy": "0 1 * * *"
+  },
+  "ipWhiteList": [
+    "localhost",
+    "127.0.0.1",
+    "0.0.0.0"
+  ],
+  "corsWhiteList": [
+    "\\.jiemi\\.co$"
+  ],
+  "cookieDomain": "jiemi.co"
+}
